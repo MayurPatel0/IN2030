@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRTrack - Login</title>
+    <link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+<body>
+  <!-- Setting background -->
+    <div class="background">
+
+        <!-- Setting logo within the background -->
+        <div class="box"><img src="img/logo.png" class="logo" alt="AbilityNet logo">
+
+            <!-- Login form, it doesn't carry label. However, it is made accessible and visual by adding placeholder text and aria-label -->
+        <div id = "form" class="loginform"> 
+            <div class="topper">
+            <h2>Login - HRTrack</h2>  </div>
+            <form name="Login" action = "form.php"  method = "POST">  
+                <div class="text"> 
+                    
+                    <input type = "text" id ="username" name  = "username" aria-label="username" placeholder="Username">  
+                    
+                </div>  
+                <div class="text">
+                   
+                    <input type = "password" id ="password" name  = "password" aria-label="password" placeholder="Password" >  
+                    
+                </div> 
+                <div class="text">
+                    <input type = "value" id ="otp" name  = "otp_code" aria-label="OTP code" placeholder="OTP code" >  
+                </div>      
+                <!-- When activating the Login button the user should be able to login to the website and should also be able to guided for error. -->
+                    <input type="submit" id = "btn" value = "Login" onclick = "return validateFields()">  
+            </form>  
+        </div>  
+    </div>
+    </div>
+        
+        <script>  
+
+// validating the input fields to check if the user is guided for the error, when he/she lefts any of the primary input fields blank.
+//Adapted from (https://github.com/pratikvispi/Login_System_HTML_CSS_PHP/blob/master/Login_System/authentication.php) - To match the connectdb.php file. Changed the functionality on when to activate and changed the message. Also changed the transfer.
+                function validateFields()  
+                {  
+                    // validating and alerting user if does not complete both of the username or password field.
+                    var user=document.Login.username.value;  
+                    var code=document.Login.password.value;  
+                    if(user.length=="" && code.length=="") {  
+                        alert("Both Username and Password fields are empty. Please do not leave it blank if you want to proceed ahead.");  
+                        return false;  
+                        
+                    }  
+                    else  
+                    {  
+                        // validating and alerting user if does not complete the username field.
+                        if(user.length=="") {  
+                            alert("Username field is empty. Please do leave this field blank if you want to proceed ahead.");  
+                            return false;  
+                        }   
+                        // validating and alerting user if does not complete the password field.
+                        if (code.length=="") {  
+                        alert("Password field is empty.Please do leave this field blank if you want to proceed ahead.");  
+                        return false;  
+                        }  
+                    }                             
+                }  
+
+
+            </script>  
+    </body>     
+</body>
+</html>

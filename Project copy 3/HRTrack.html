@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRTrack</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    
+ 
+</head>
+<body>
+
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt="AbilityNet logo"></a>
+
+        <div>
+            <!-- creating a navigation bar, which acts as a menu to help direct to other pages. -->
+            <ul id="navbar">
+                <li><a  href="HR.html">About HR</a></li>
+                <li><a class="active" href="HRTrack.html">HR Track</a></li>
+                <li><a  href="logout.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                      </svg>Test</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div id="content">
+       
+
+<section id="title" class="project_title">
+    <!-- Input field to enter the project number and name. The input field is labelled using placeholder and accessibly labelled using aria-label. -->
+    <input class="form-control form-control-lg" type="text" style="font-weight: bolder;" name="projectname" id="project" aria-label="Enter AN project name and number" placeholder="Enter report title">
+</section>
+
+    <section id="hero">
+        <h1> Review Breakdown</h1>
+        </section>
+    
+<section id="hero2">
+    <div class="form-group">
+        <label for="usr"><strong>Page 1:</strong></label>
+        <!-- Input field to enter the page name. The input field is labelled using placeholder. -->
+        <input type="text" class="form-control" style="font-weight: bolder;" placeholder="Enter page 1 name" id="usr">
+      </div>
+    </section>
+      
+    <!-- Table with dropdown options to select checks, score and a text area to enter the reason for the above selection. -->
+<div class="check">
+    <table class="border border-dark border-5">
+        <thead>
+            <tr>
+                <th>Check</th>
+                <th>Score</th>
+                <th>Notes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select checkpoints
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" >
+                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="#">Keyboard</a>
+                            <a class="dropdown-item" href="#">Skip Links</a>
+                            <a class="dropdown-item" href="#">Fields and Components </a>
+                            <a class="dropdown-item" href="#">Alternative Text</a>
+                            <a class="dropdown-item" href="#">Layout</a>
+                            <a class="dropdown-item" href="#">Colour</a>
+                            <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select Score
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="10"></textarea>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select checkpoints
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="#">Keyboard</a>
+                            <a class="dropdown-item" href="#">Skip Links</a>
+                            <a class="dropdown-item" href="#">Fields and Components </a>
+                            <a class="dropdown-item" href="#">Alternative Text</a>
+                            <a class="dropdown-item" href="#">Layout</a>
+                            <a class="dropdown-item" href="#">Colour</a>
+                            <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select Score
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="10"></textarea>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select checkpoints
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="#">Keyboard</a>
+                            <a class="dropdown-item" href="#">Skip Links</a>
+                            <a class="dropdown-item" href="#">Fields and Components </a>
+                            <a class="dropdown-item" href="#">Alternative Text</a>
+                            <a class="dropdown-item" href="#">Layout</a>
+                            <a class="dropdown-item" href="#">Colour</a>
+                            <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select Score
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="10"></textarea>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select checkpoints
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="#">Keyboard</a>
+                            <a class="dropdown-item" href="#">Skip Links</a>
+                            <a class="dropdown-item" href="#">Fields and Components </a>
+                            <a class="dropdown-item" href="#">Alternative Text</a>
+                            <a class="dropdown-item" href="#">Layout</a>
+                            <a class="dropdown-item" href="#">Colour</a>
+                            <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select Score
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="10"></textarea>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select checkpoints
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="#">Keyboard</a>
+                            <a class="dropdown-item" href="#">Skip Links</a>
+                            <a class="dropdown-item" href="#">Fields and Components </a>
+                            <a class="dropdown-item" href="#">Alternative Text</a>
+                            <a class="dropdown-item" href="#">Layout</a>
+                            <a class="dropdown-item" href="#">Colour</a>
+                            <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select Score
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="10"></textarea>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select checkpoints
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="#">Keyboard</a>
+                            <a class="dropdown-item" href="#">Skip Links</a>
+                            <a class="dropdown-item" href="#">Fields and Components </a>
+                            <a class="dropdown-item" href="#">Alternative Text</a>
+                            <a class="dropdown-item" href="#">Layout</a>
+                            <a class="dropdown-item" href="#">Colour</a>
+                            <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select Score
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="10"></textarea>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select checkpoints
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="#">Keyboard</a>
+                            <a class="dropdown-item" href="#">Skip Links</a>
+                            <a class="dropdown-item" href="#">Fields and Components </a>
+                            <a class="dropdown-item" href="#">Alternative Text</a>
+                            <a class="dropdown-item" href="#">Layout</a>
+                            <a class="dropdown-item" href="#">Colour</a>
+                            <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select Score
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="10"></textarea>
+                </td> 
+            </tr>
+            <tr>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select checkpoints
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Structure</a>
+                            <a class="dropdown-item" href="#">Keyboard</a>
+                            <a class="dropdown-item" href="#">Skip Links</a>
+                            <a class="dropdown-item" href="#">Fields and Components </a>
+                            <a class="dropdown-item" href="#">Alternative Text</a>
+                            <a class="dropdown-item" href="#">Layout</a>
+                            <a class="dropdown-item" href="#">Colour</a>
+                            <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                            Select Score
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <textarea name="" id="" cols="45" rows="10"></textarea>
+                </td> 
+            </tr>        
+        </tbody>
+    </table>
+</div>
+
+<section id="hero2">
+<div class="form-group">
+    <label for="usr"><strong>Page 2:</strong></label>
+        <!-- Input field to enter the page name. The input field is labelled using placeholder. -->
+    <input type="text" class="form-control" style="font-weight: bolder;" placeholder="Enter page 2 name" id="usr">
+  </div>
+</section>
+  
+<div class="check">
+    <!-- Table with dropdown options to select checks, score and a text area to enter the reason for the above selection. -->
+<table class="border border-dark border-5">
+    <thead>
+        <tr>
+            <th>Check</th>
+            <th>Score</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>        
+    </tbody>
+</table>
+</div>
+
+<section id="hero2">
+<div class="form-group">
+    <label for="usr"><strong>Page 3:</strong></label>
+        <!-- Input field to enter the page name. The input field is labelled using placeholder. -->
+    <input type="text" class="form-control" style="font-weight: bolder;" placeholder="Enter page 3 name" id="usr">
+  </div>
+</section>
+  
+<div class="check">
+    <!-- Table with dropdown options to select checks, score and a text area to enter the reason for the above selection. -->
+<table class="border border-dark border-5">
+    <thead>
+        <tr>
+            <th>Check</th>
+            <th>Score</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>        
+    </tbody>
+</table>
+</div>
+
+<section id="hero2">
+    <div class="form-group">
+        <label for="usr"><strong>Page 4:</strong></label>
+            <!-- Input field to enter the page name. The input field is labelled using placeholder. -->
+        <input type="text" class="form-control" style="font-weight: bolder;" placeholder="Enter page 2 name" id="usr">
+      </div>
+    </section>
+  
+<div class="check">
+    <!-- Table with dropdown options to select checks, score and a text area to enter the reason for the above selection. -->
+<table class="border border-dark border-5">
+    <thead>
+        <tr>
+            <th>Check</th>
+            <th>Score</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>        
+    </tbody>
+</table>
+</div>
+
+<section id="hero2">
+<div class="form-group">
+    <label for="usr"><strong>Page 5:</strong></label>
+        <!-- Input field to enter the page name. The input field is labelled using placeholder. -->
+    <input type="text" class="form-control" style="font-weight: bolder;" placeholder="Enter page 5 name" id="usr">
+  </div>
+</section>
+  
+<div class="check">
+    <!-- Table with dropdown options to select checks, score and a text area to enter the reason for the above selection. -->
+<table class="border border-dark border-5">
+    <thead>
+        <tr>
+            <th>Check</th>
+            <th>Score</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>
+        <tr>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select checkpoints
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Structure</a>
+                        <a class="dropdown-item" href="#">Keyboard</a>
+                        <a class="dropdown-item" href="#">Skip Links</a>
+                        <a class="dropdown-item" href="#">Fields and Components </a>
+                        <a class="dropdown-item" href="#">Alternative Text</a>
+                        <a class="dropdown-item" href="#">Layout</a>
+                        <a class="dropdown-item" href="#">Colour</a>
+                        <a class="dropdown-item" href="#">Moving and Multimedia Content</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="dropdown">
+                    <button class="btn btn-secondary " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background: #005c6e;">
+                        Select Score
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">1</a>
+                        <a class="dropdown-item" href="#">2</a>
+                        <a class="dropdown-item" href="#">3</a>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <textarea name="" id="" cols="45" rows="10"></textarea>
+            </td> 
+        </tr>        
+    </tbody>
+</table>
+</div>
+
+<!-- Table to input the score per page. The total score can be 24 (max). (https://www.tutorialspoint.com/creating-a-dynamic-report-card-using-html-css-and-javascript) - Code adapted from this url, I have changed the table, table data, table styles, table input fields and table rows. As well as the above I have changed the js code to accurately reflect average score calculation. I have also addedd the onchange functionality and was also able to add rounding decimal numbers to full numbers functionality.  -->
+<center>
+        <section class="score">
+            <h1>Scores</h1>
+
+        <h2>Scores by Page</h2>
+            <table class="scores" border="2" cellspacing="10" bgcolor="white">               
+               <tr style="background: #005c6e;">
+                  <th width="180">Pages</th>
+                  <th>1</th>
+                  <th>2</th>
+                  <th>3</th>
+                  <th>4</th>
+                  <th>5</th>
+               </tr>     
+               <tr>
+                  <td width="180" style="background: #005c6e;"> Average Score</td>
+                  <td><input style="font-weight: bolder;" type="text" id="p1"></td>
+                  <td><input style="font-weight: bolder;" type="text" id="p2"></td>
+                  <td><input style="font-weight: bolder;" type="text" id="p3"></td>
+                  <td><input style="font-weight: bolder;" type="text" id="p4"></td>
+                  <td><input style="font-weight: bolder;" type="text" id="p5" onchange="Calculating()"></td>
+               </tr>
+            </table>
+            
+            <!-- Average score from the above table in percent added dynamically. -->
+            <h2>Score Average</h2>
+            <table border="1" cellspacing="5" bgcolor="white"
+               height="80" width="500" cellpadding="5" id="TableScore" class="average">
+               <tr>
+                  <th width="180">Average Score (%)</th>
+               </tr>
+            </table>
+         </center>
+         
+         <!-- JS code - adding all 5 pages score and then converting the tal score out of 120 in percentage to the nearest digit. -->
+         <script type="text/javascript">
+            function Calculating(){
+               var n, k, r, e, v, sum, avg;
+               page1=parseFloat(document.getElementById('p1').value);
+               page2=parseFloat(document.getElementById('p2').value);
+               page3=parseFloat(document.getElementById('p3').value);
+               page4=parseFloat(document.getElementById('p4').value);
+               page5=parseFloat(document.getElementById('p5').value);
+               // Calculating the Total Marks
+               sum=page1+page2+page3+page4+page5;
+               avg=Math.round(sum/1.2);
+               // Displaying the Student Data
+               var newTable = document.getElementById('TableScore');
+               var row = newTable.insertRow(-1);
+               var cell1 = row.insertCell(0);
+               cell1.innerHTML = avg;
+            }
+         </script>
+
+</section> 
+
+   </div>  
+<!-- Button to generate the pdf -->
+   <button id="print-this" class="btn btn-info" style="background-color: #005c6e;"> Generate PDF</button>
+
+   <!-- The footer section of the website. It contains my details. It also contains link to my email . This is where you can write me another user can wite me a feedback. If he/she is facing problem accessing the system. -->
+   <footer>
+    <div class="row">
+        <div class="col">
+            <img src="img/logo.png" alt="AbilityNet logo" class="ANlogo">
+            <p> HRTrack powered by AbilityNet </p>
+        </div>
+        <div class="col">
+            <h5>Contact</h5>
+            <p class="email-id">mayur.patel@abilitynet.org.uk</p>
+            <h6><a href="tel:+44800048764" class="ANDI508-element ANDI508-highlight ANDI508-element-active" data-andi508-index="76"><strong>+447474352025</strong></a></h6>
+        </div>
+        <div class="col">
+            <h5>Links</h5>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">NetSuite</a></li>
+                <li><a href="">Sharepoint</a></li>
+                <li><a href="">Accessibility Statement</a></li>
+            </ul>
+        </div>
+        <div class="col"></div>
+    </div>
+    <hr><p class="copyright-claim">©AbilityNet 2022. AbilityNet is a company limited by guarantee in England and Wales No: 3469653.</p>
+</footer>
+    
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="printThis.js"></script>
+<script src="script2.js"></script>
+
+
+</body>
+ 
+
+
+</html>

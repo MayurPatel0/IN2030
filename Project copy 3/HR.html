@@ -1,0 +1,267 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRTrack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+
+        <div>
+            <!-- creating a navigation bar, which acts as a menu to help direct to other pages. -->
+            <ul id="navbar">
+                <li><a class="active" href="HR.html">About HR</a></li>
+                <li><a href="HRTrack.html">HR Track</a></li>
+                <li><a href="logout.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                  </svg>Test</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="hr">
+        <div class="hr container">
+            <div class="hr_left">
+        <h1>Headline Review</h1>
+        <p>Headline Review is a light-touch and rapid review. It is a cheaper alternative to a WCAG audit. Where User Testing has an Expert Review, a WCAG audit has the Headline Review. 
+        </p> 
+      
+        </div>
+
+        <div class="hr_right">
+            <article class="links">
+                <h3><a href="https://abilitynet.atlassian.net/wiki/spaces/AAD/pages/1143930891/Headline+Review+Responsive+Web">Confluence</a></h3>                
+            </article>
+            <article class="links">
+                <h3><a href="https://abilitynet.atlassian.net/wiki/spaces/AAD/pages/1143930891/Headline+Review+Responsive+Web">Sharepoint</a></h3>                
+            </article>
+            <article class="links">
+                <h3><a href="https://app.slack.com/client/T49AN34UA/C81JRQ2H3">Slack</a></h3>                
+            </article>
+            <article class="links">
+                <h3><a href="https://abilitynet900.sharepoint.com/:w:/r/sites/Team-AccessibilityServices2/_layouts/15/doc2.aspx?sourcedoc=%7B73D8E1C2-A40A-40BB-BFA4-93493EC1444C%7D&file=Headline%20Review%20Template%20-%20Responsive%20Websites.docx&action=default&mobileredirect=true&cid=5ddb6771-0a4a-4e0a-ae67-71085df3da07">Template - Native App</a></h3>                
+            </article>
+            <article class="links">
+                <h3><a href="https://abilitynet900.sharepoint.com/:w:/r/sites/Team-AccessibilityServices2/_layouts/15/doc2.aspx?sourcedoc=%7B73D8E1C2-A40A-40BB-BFA4-93493EC1444C%7D&file=Headline%20Review%20Template%20-%20Responsive%20Websites.docx&action=default&mobileredirect=true&cid=5ddb6771-0a4a-4e0a-ae67-71085df3da07">Template - Web</a></h3>                
+            </article>
+            <article class="links">
+                <h3><a href="https://abilitynet.atlassian.net/wiki/spaces/AAD/pages/1143930891/Headline+Review+Responsive+Web">Video</a></h3>                
+            </article>
+        </div>
+    </div>
+    </section>
+
+<!-- completing checks accordion, is adapted from bootstrap accordion -->
+    <section class="checks">
+        <div class="completingchecks-container">
+            <h2>Completing checkpoints</h2>
+            <div class="questions-container">
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Structure</h3>
+                        <span class="open active">+</span>
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            The <strong>Heading Structure</strong> can be checked with <a href="https://chrispederick.com/work/web-developer/"> Web Developer</a> (Information > View Document Outline) or <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en">Headings Map</a>.
+                        </p>
+    
+                        <p>Inappropriate use of heading semantics on individual headings can be checked with the <a href="http://pauljadam.com/bookmarklets/headings.html">Paul J Adams - Heading Bookmarklet</a>.
+                        </p>
+                    </div>
+                </div>
+    
+                
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Keyboard</h3>
+                        <span class="open active">+</span>
+                       
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            Use a keyboard to navigate through the whole page. Make sure there are no <strong>keyboard traps</strong> and <strong>focus is logical</strong>. As you tab through the page, visually check that the <strong>focus indicator is displayed throughout</strong>.
+                        </p>
+    
+                        <p>Use the <a href="https://labs.levelaccess.com/index.php/Focus_Order_Favlet">focus order bookmarklet </a> to expose the elements in the focus order. 
+                         </p>
+    
+                         <p>
+                            To track focus through the page, you can use <a href="https://accessibilityinsights.io/en/downloads">Accessibility Insights</a>. 
+                         </p>
+    
+                         <p>
+                            This has an <strong>ad-hoc for testing the tab stops</strong>. You can also use the <a href="https://accessibilityinsights.io/en/downloads">force focus bookmarklet</a> or <a  href="https://accessibilityinsights.io/en/downloads">Focus indicator Chrome extension</a> when it is not clear what you are focusing on.
+                         </p>
+                    </div>
+                </div>
+    
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Skip Links</h3>
+                        <span class="open active">+</span>
+                      
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            Skip links require manually checking. Select the browser address bar and tab into the page, before you tab onto the navigation, there should be a skip link. It should become visible when you tab onto it. 
+                        </p>
+    
+                        <p>When you activate it, it should prompt focus to jump over navigation. This can be tested by activating the link and then tabbing again. The keyboard focus should have jumped over the navigation.  
+                        </p>
+    
+                        <p>
+                            If there are skip links that do not seem to become visible on focus, you can open the Dev Tools and use Ctrl + F to search for “Skip Links”. This can unearth inoperable skip links. 
+                        </p>
+    
+    
+                    </div>
+                </div>
+    
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Fields and components</h3>
+                        <span class="open active">+</span>
+                       
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            The Heading Structure can be checked with <a href="https://chrispederick.com/work/web-developer/"> Web Developer</a> (Information > View Document Outline) or <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en">Headings Map</a>.
+                        </p>
+                            <p>Inappropriate use of heading semantics on individual headings can be checked with the <a href="http://pauljadam.com/bookmarklets/headings.html">Paul J Adams - Heading Bookmarklet</a>.</p>
+                    </div>
+                </div>
+    
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Alternative text</h3>
+                        <span class="open active">+</span>
+                       
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            The Heading Structure can be checked with <a href="https://chrispederick.com/work/web-developer/"> Web Developer</a> (Information > View Document Outline) or <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en">Headings Map</a>.
+                        </p>
+                            <p>Inappropriate use of heading semantics on individual headings can be checked with the <a href="http://pauljadam.com/bookmarklets/headings.html">Paul J Adams - Heading Bookmarklet</a>.</p>
+                    </div>
+                </div>
+    
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Layout</h3>
+                        <span class="open active">+</span>
+                        
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            The Heading Structure can be checked with <a href="https://chrispederick.com/work/web-developer/"> Web Developer</a> (Information > View Document Outline) or <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en">Headings Map</a>.
+                        </p>
+                            <p>Inappropriate use of heading semantics on individual headings can be checked with the <a href="http://pauljadam.com/bookmarklets/headings.html">Paul J Adams - Heading Bookmarklet</a>.</p>
+                    </div>
+                </div>
+    
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Structure</h3>
+                        <span class="open">+</span>
+                        
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            The Heading Structure can be checked with <a href="https://chrispederick.com/work/web-developer/"> Web Developer</a> (Information > View Document Outline) or <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en">Headings Map</a>.
+                        </p>
+                            <p>Inappropriate use of heading semantics on individual headings can be checked with the <a  href="http://pauljadam.com/bookmarklets/headings.html">Paul J Adams - Heading Bookmarklet</a>.</p>
+                    </div>
+                </div>
+    
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Colour</h3>
+                        <span class="open active">+</span>
+                        
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            The Heading Structure can be checked with <a href="https://chrispederick.com/work/web-developer/"> Web Developer</a> (Information > View Document Outline) or <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en">Headings Map</a>.
+                        </p>
+                            <p>Inappropriate use of heading semantics on individual headings can be checked with the <a href="http://pauljadam.com/bookmarklets/headings.html">Paul J Adams - Heading Bookmarklet</a>.</p>
+                    </div>
+                </div>
+    
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Moving, Flashing, and Multimedia content</h3>
+                        <span class="open">+</span>
+                      
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            The Heading Structure can be checked with <a  href="https://chrispederick.com/work/web-developer/"> Web Developer</a> (Information > View Document Outline) or <a href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en">Headings Map</a>.
+                        </p>
+                            <p>Inappropriate use of heading semantics on individual headings can be checked with the <a href="http://pauljadam.com/bookmarklets/headings.html">Paul J Adams - Heading Bookmarklet</a>.</p>
+                    </div>
+                </div>
+    
+                <div class="content-container">
+                    <div class="content-header">
+                        <h3>Multimedia content</h3>
+                        <span class="open active">+</span>
+                       
+                    </div>
+    
+                    <div class="content">
+                        <p>
+                            The Heading Structure can be checked with <a href="https://chrispederick.com/work/web-developer/"> Web Developer</a> (Information > View Document Outline) or <a  href="https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en">Headings Map</a>.
+                        </p>
+                            <p>Inappropriate use of heading semantics on individual headings can be checked with the <a href="http://pauljadam.com/bookmarklets/headings.html">Paul J Adams - Heading Bookmarklet</a>.</p>
+                    </div>
+                </div>
+    
+    
+            </div>
+        </div> 
+    </section>
+<!-- The footer section of the website. It contains my details. It also contains link to my email . This is where you can write me another user can wite me a feedback. If he/she is facing problem accessing the system. -->
+<footer>
+    <div class="row">
+        <div class="col">
+            <img src="img/logo.png" alt="AbilityNet logo" class="ANlogo">
+            <p> HRTrack - AbilityNet </p>
+        </div>
+        <div class="col">
+            <h5>Contact</h5>
+            <p class="email-id">mayur.patel@abilitynet.org.uk</p>
+            <h6><a href="tel:+44800048764" class="ANDI508-element ANDI508-highlight ANDI508-element-active" data-andi508-index="76"><strong>+447474352025</strong></a></h6>
+        </div>
+        <div class="col">
+            <h5>Links</h5>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">NetSuite</a></li>
+                <li><a href="">Sharepoint</a></li>
+                <li><a href="">Accessibility Statement</a></li>
+            </ul>
+        </div>
+        <div class="col"></div>
+    </div>
+    <hr><p class="copyright-claim">©AbilityNet 2022. AbilityNet is a company limited by guarantee in England and Wales No: 3469653.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

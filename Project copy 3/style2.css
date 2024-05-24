@@ -1,0 +1,296 @@
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #005c6e;
+    box-shadow: 0 5px 8px rgb(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+#navbar li {
+list-style: none;
+padding: 20px;
+position: relative;
+
+}
+
+#navbar li a {
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: 600;
+   color: antiquewhite;
+   transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active
+{
+   color: antiquewhite;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after
+{
+   content: "";
+   width: 30%;
+   height: 2px;
+   background: antiquewhite;
+   position: absolute;
+   bottom: -4px;
+   left: 20px;
+}
+
+#hero {
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h1{
+    padding-bottom: 10px;
+}
+
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 50% !important;
+}
+
+
+tr{
+    height: 2px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+td{
+    padding: 0px;
+}
+
+button, textarea {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+ }
+
+th, tr{
+    background: #005c6e;
+}
+
+
+
+.score {
+    margin-top: 3rem;
+    height: 25rem;
+}
+
+.average{
+    margin-top: 2rem;
+}
+
+.check{
+    margin-top: 1rem;
+}
+
+.form-control{
+
+    border:none;
+    outline:none;
+    background: transparent;
+    border-width: 0px;
+    box-shadow: none;
+}
+
+.form-control:focus {outline:none!important;}
+
+footer{
+    width: 100%;
+    height: 25rem;
+    bottom: 0;
+    background: #393837;
+    color: antiquewhite;
+    margin-top: 5rem;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+
+.col {
+    height: 200px;
+    width: 200px;
+   
+   }
+
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.ANlogo{
+margin-left: 5rem;
+margin-bottom: 35px;
+} 
+
+p{
+    margin-left: 5rem;
+}
+
+.col h5{
+    width: fit-content;
+    margin-bottom: 35px;
+    position: relative;
+    margin-left: 15rem;
+    margin-top: 2.5rem;
+}
+
+.email-id{
+    width:fit-content;
+    border-bottom: 1px solid #CCFFE5;
+    margin-left: 15rem;
+}
+
+.col h6{
+    width: fit-content;
+    margin-bottom: 35px;
+    position: relative;
+    margin-left: 15rem;
+    margin-top: 2.5rem;
+    font: bold;
+    color: antiquewhite;
+}
+
+.col h6 a{
+    color: antiquewhite;
+}
+
+ul {
+    margin-left: 14rem;
+}
+
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    margin-left: 4.5rem;
+}
+
+.btn-secondary{
+    border: none;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+th{
+    color: #ccc;
+}
+
+#hero{
+    margin-top: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#hero2{
+    margin-left: 4.5rem;
+}
+
+.form-control{
+    width: 50px;
+}
+
+#hero2 {
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 4.5rem;
+}
+
+#title{
+    margin-top: 5rem;
+    margin-left: 5rem;
+    padding: 0 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.form-control-lg{
+    height: 5px;
+    width: min-content;
+}
+
+.average tr{
+    background: antiquewhite;
+}
+
+.average{
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+}
+
+.score h2{
+    margin-top: 2rem;
+}
+
+#print-this{
+    margin-top: 20rem;
+}
+
+.score h1{
+    margin-top: 5rem;
+}
+
+.scores{
+    margin-top: 3rem;
+}
+
+.scores td{
+    color: #ccc;
+}
+
+#print-this {
+    height: 60px;
+    width: 30%;
+    margin-left: 4.5rem;
+}
